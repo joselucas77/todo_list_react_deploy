@@ -1,0 +1,45 @@
+body {
+  font-family: Arial;
+  /* background-color: #f4f4f4; */
+  padding: 30px;
+  color: white;
+  background-color: #68b2f8;
+  /* background-image: url('../img/bg.jpg');
+  background-position: top;
+  background-size: cover; */
+}
+
+h1 { text-align: center; }
+h2 { margin-bottom: 10px; }
+p { margin: 10px 0; }
+input { box-sizing: border-box; }
+
+.app {
+  max-width: 600px;
+  margin: 0 auto 300px;
+  background-color: #1d0c20;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.todo-list {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #68b2f8;
+}
+
+.filter, .search {
+  border-bottom: 1px solid #68b2f8;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.filter-options {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.filter-options div {
+  flex: 1 1 0;
+}
